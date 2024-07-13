@@ -28,7 +28,7 @@ INITIAL_MAPPING: Dict[str, List[Tuple[str, ...]]] = {
   "n": [("n",)],
   "p": [("pʰ",)],
   "q": [("tɕʰ",)],
-  "r": [("ɻ",), ("ʐ",)],
+  "r": [("ʐ",)],
   "s": [("s",)],
   "sh": [("ʂ",)],
   "t": [("tʰ",)],
@@ -37,7 +37,7 @@ INITIAL_MAPPING: Dict[str, List[Tuple[str, ...]]] = {
   "zh": [("ʈʂ",)],  # tʂ
   # w and y only occur in non-strict initials
   # "w": [("w",)],
-  # "y": [("j",), ("ɥ",)],
+  "y": [("j",), ("ɥ",)],
 }
 
 INITIALS = INITIAL_MAPPING.keys()
